@@ -1,0 +1,6 @@
+USE my_db;
+INSERT INTO my_db.post (id, anons, full_text, title, views)
+VALUES
+    (1, 'drgthbd', 'dfgbnd', 'Idf', 500),
+    (2, 'Oleg', 'Ivanov', 'Sales', 700),
+    (3, 'Nina', 'Sidorova', 'HR', 850);
